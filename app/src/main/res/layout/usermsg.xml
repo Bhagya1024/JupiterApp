@@ -1,0 +1,47 @@
+
+    <LinearLayout
+        android:id="@+id/usermsg"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:translationZ="-1dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:background="@drawable/usermsgbg"
+            android:layout_marginLeft="70dp">
+
+            <TextView
+                android:id="@+id/usermsgtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="start"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12dp"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/usermsgtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:text="22:46 PM"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/grey"
+            android:textSize="12dp"/>
+
+
+    </LinearLayout>
+

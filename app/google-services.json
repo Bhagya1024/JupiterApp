@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977488509804",
+    "project_id": "jupiter-ba5b1",
+    "storage_bucket": "jupiter-ba5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977488509804:android:5bd44e1b6267a9750f5149",
+        "android_client_info": {
+          "package_name": "com.example.jupiterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977488509804-dh8ief3ivokdkjpbo0uf6alkm81pslfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf4xM6KvsJthu1XhIAdNfM7EXqyrxi8sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977488509804-dh8ief3ivokdkjpbo0uf6alkm81pslfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageButton"
+        android:id="@+id/menubtn"
         android:layout_width="24dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton">
+        app:layout_constraintTop_toBottomOf="@+id/menubtn">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -352,6 +352,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/alexbtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="12dp"

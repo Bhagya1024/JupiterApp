@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -185,6 +186,26 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Home.this, SelectRoom.class);
+                startActivity(intent);
+            }
+        });
+
+
+        LinearLayout alexbtn = findViewById(R.id.alexbtn);
+        alexbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Ar.class);
+                startActivity(intent);
+            }
+        });
+
+
+        ImageView menubtn = findViewById(R.id.menubtn);
+        menubtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Menu.class);
                 startActivity(intent);
             }
         });
